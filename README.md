@@ -34,3 +34,4 @@ https://www.kurdipedia.org/default.aspx?q=2014102714305577836&lng=1
 https://www.kurdipedia.org/default.aspx?q=20210502185855393854&lng=1
 
 https://youtube.com/watch?v=FhYCUhaDEt4&feature=share
+
