@@ -56,3 +56,22 @@
 
             countingnames();
         }
+        private void reset_CheckedChanged(object sender, EventArgs e)
+        {
+            DisplayData();
+            DisplayData2();
+            countingnames();
+
+            box_stage.Text = "";
+            box_grouptype.Text = "";
+            box_grouptime.Text = "";
+            box_class.Text = "";
+            box_sub.Text = "";
+            reset.Checked = false;
+
+            isResetting = true; // Set the flag to true before resetting parameters
+            FilterData1();
+            FilterData2();
+            isResetting = false; // Reset the flag to false after resetting parameters
+        }i have problem with this code it work ok but I have problem let say i searched for stage (2) and group_time_r (evening) and work               then i do reset_Checked then i search for stage 1 it work but it still search for evening
+
